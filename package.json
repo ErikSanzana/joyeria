@@ -1,0 +1,27 @@
+{
+  "name": "joyeriaback",
+  "version": "1.0.0",
+  "description": "joyeria creo que era",
+  "main": "./server",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server",
+    "dev": "nodemon server.js",
+    "watch": "node --watch ./server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "all": "^0.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "logger-express": "^1.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "pg": "^8.11.3",
+    "pg-format": "^1.0.4",
+    "pg-hstore": "^2.3.4"
+  }
+}
